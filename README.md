@@ -30,14 +30,17 @@ Language Model: Mistral (served locally via Ollama)
 # Features
 
 Zero external API calls
-Runs fully locally (no internet required)
+Runs fully locally
 Playful, conversational tone in answers
-Modular codebase ready to scale or adapt to other documents
+Code ready to scale or adapt to other documents
 #  Getting Started
 
 Clone this repo
 Install requirements: pip install -r requirements.txt
-Run the notebook or script
+
+Run the notebook
+
 Ask questions about your CV like a boss 🤓
-Feel free to extend this to other documents, multiple files, or even a Streamlit UI for a full QA dashboard!
+
+Feel free to extend this to other document
 

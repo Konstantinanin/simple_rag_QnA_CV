@@ -9,7 +9,7 @@ This project sets up a simple yet powerful semantic search engine for a CV, leve
 *Text Chunking*: The raw text is split into smaller, coherent chunks using LangChain’s RecursiveCharacterTextSplitter.
 Splits occur around natural language boundaries (e.g., periods, newlines). A 30-character overlap between chunks ensures that important edge information is not lost and remains searchable.
 
-*Vectorization*:Each chunk is transformed into a dense vector using the all-MiniLM-L6-v2 model from SentenceTransformers. These embeddings represent the semantic content of each chunk.
+*Vectorization*: Each chunk is transformed into a dense vector using the all-MiniLM-L6-v2 model from SentenceTransformers. These embeddings represent the semantic content of each chunk.
 
 *FAISS Indexing*: Vectors are stored in a FAISS flat index using Euclidean (L2) distance. During retrieval, the input query is also vectorized and compared against all stored embeddings. The top 3 most relevant chunks are returned based on similarity.
 
@@ -22,17 +22,25 @@ Question: "Where did Koonstantina study?"→ Output: "She studied at Aristotle U
 # Tech Stack
 
 Text Extraction: PyMuPDF (fitz)
+
 Text Splitting: LangChain
+
 Embeddings: SentenceTransformers (all-MiniLM-L6-v2)
+
 Vector Search: FAISS (Flat Index, L2 distance)
+
 Language Model: Mistral (served locally via Ollama)
 
 # Features
 
 Zero external API calls
+
 Runs fully locally
+
 Playful, conversational tone in answers
+
 Code ready to scale or adapt to other documents
+
 #  Getting Started
 
 Clone this repo

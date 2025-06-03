@@ -37,14 +37,5 @@ Zero external API calls
 
 Runs fully locally
 
-Playful, conversational tone in answers
-
 Code ready to scale or adapt to other documents
-
-
-Run the notebook
-
-Ask questions about your CV like a boss 🤓
-
-Feel free to extend this to other document
 

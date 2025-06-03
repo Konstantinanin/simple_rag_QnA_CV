@@ -41,10 +41,6 @@ Playful, conversational tone in answers
 
 Code ready to scale or adapt to other documents
 
-#  Getting Started
-
-Clone this repo
-Install requirements: pip install -r requirements.txt
 
 Run the notebook
 
